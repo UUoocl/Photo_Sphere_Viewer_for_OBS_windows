@@ -18,7 +18,7 @@ stateDiagram
     direction LR
     A: USB PTZ Camera
     B: OBS
-    uvc: uvc util
+    m: move plugin 
     l: lua Script
     b: browser
     t: text source
@@ -28,8 +28,8 @@ stateDiagram
     state B {
       direction LR
     A --> l
-      l --> uvc
-      uvc --> t
+      l --> m
+      m --> t
       t --> b 
     }
 ```
