@@ -1,7 +1,7 @@
 # Moving_Virtual_Background
 This project connects a PTZ usb camera and a browser source via an OBS lua script.
 
-This version is MacOS only.  
+This version is Windows only.  
 
 An example use is creating a moving virtual background by sending the PTZ data to the Photo Sphere Viewer Javascript library.  
 
